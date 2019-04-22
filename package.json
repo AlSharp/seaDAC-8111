@@ -1,0 +1,15 @@
+{
+  "name": "seadac8111_ffi_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Albert Sharapov",
+  "license": "MIT",
+  "dependencies": {
+    "ffi": "^2.3.0",
+    "ref": "^1.3.5"
+  }
+}
