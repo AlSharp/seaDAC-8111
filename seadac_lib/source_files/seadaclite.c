@@ -831,6 +831,7 @@ int SeaDacLinWrite(SeaMaxLin *SeaMaxPointer, unsigned char *data, int numBytes)
 	//Ensure we copy at most two bytes
 	if (numBytes > 2)
 		return -ERANGE;
+
 	memcpy(buf, data, numBytes);
 
 	if (!ftdi_write_data)
